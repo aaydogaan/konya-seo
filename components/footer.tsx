@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { MapPin, Phone, Mail } from "lucide-react"
 
 const links = [
@@ -15,8 +16,14 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <a href="#" className="font-serif text-xl font-bold text-primary-foreground">
-              BRO<span className="text-accent">Digital</span>
+            <a href="#" className="inline-block">
+              <Image
+                src="/images/brodigitalmedia-logo.png"
+                alt="Brothers Digital Media"
+                width={180}
+                height={45}
+                className="h-10 w-auto brightness-0 invert"
+              />
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-primary-foreground/60">
               {"Konya pazarini bilen, rekabeti analiz eden ve surdurulebilir buyume hedefleyen bir SEO stratejisi ile markaniz icin guclu bir dijital konum elde edin."}

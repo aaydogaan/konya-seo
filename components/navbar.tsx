@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -8,6 +9,7 @@ const navLinks = [
   { label: "Hizmetler", href: "#hizmetler" },
   { label: "Nasil Yapilir", href: "#nasil-yapilir" },
   { label: "Faydalar", href: "#faydalar" },
+  { label: "Paketler", href: "#fiyatlandirma" },
   { label: "SSS", href: "#sss" },
   { label: "Iletisim", href: "#iletisim" },
 ]
@@ -18,8 +20,15 @@ export function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="#" className="font-serif text-xl font-bold tracking-tight text-foreground">
-          BRO<span className="text-accent">Digital</span>
+        <a href="#" className="flex items-center">
+          <Image
+            src="/images/brodigitalmedia-logo.png"
+            alt="Brothers Digital Media"
+            width={180}
+            height={45}
+            className="h-9 w-auto"
+            priority
+          />
         </a>
 
         {/* Desktop nav */}
