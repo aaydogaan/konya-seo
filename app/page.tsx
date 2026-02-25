@@ -8,6 +8,7 @@ import { Pricing } from "@/components/pricing"
 import { FAQ } from "@/components/faq"
 import { ContactCTA } from "@/components/contact-cta"
 import { Footer } from "@/components/footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Page() {
   return (
@@ -22,6 +23,7 @@ export default function Page() {
       <FAQ />
       <ContactCTA />
       <Footer />
+      <WhatsAppButton />
     </main>
   )
 }

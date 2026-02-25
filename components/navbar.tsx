@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button"
 
 const navLinks = [
   { label: "Hizmetler", href: "#hizmetler" },
-  { label: "Nasil Yapilir", href: "#nasil-yapilir" },
+  { label: "Nasıl Yapılır", href: "#nasil-yapilir" },
   { label: "Faydalar", href: "#faydalar" },
   { label: "Paketler", href: "#fiyatlandirma" },
   { label: "SSS", href: "#sss" },
-  { label: "Iletisim", href: "#iletisim" },
+  { label: "İletişim", href: "#iletisim" },
 ]
 
 export function Navbar() {
@@ -32,7 +32,7 @@ export function Navbar() {
         </a>
 
         {/* Desktop nav */}
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
@@ -45,7 +45,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-3 lg:flex">
           <a
             href="tel:05050638543"
             className="flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
@@ -54,15 +54,15 @@ export function Navbar() {
             0505 063 8543
           </a>
           <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
-            <a href="#iletisim">Ucretsiz Analiz</a>
+            <a href="#iletisim">{"Ücretsiz Analiz"}</a>
           </Button>
         </div>
 
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-foreground"
-          aria-label="Menu"
+          className="lg:hidden text-foreground"
+          aria-label="Menü"
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -70,7 +70,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="border-t border-border bg-background px-6 pb-6 md:hidden">
+        <div className="border-t border-border bg-background px-6 pb-6 lg:hidden">
           <ul className="flex flex-col gap-4 pt-4">
             {navLinks.map((link) => (
               <li key={link.href}>
@@ -93,7 +93,7 @@ export function Navbar() {
               0505 063 8543
             </a>
             <Button asChild className="w-full bg-primary text-primary-foreground">
-              <a href="#iletisim" onClick={() => setOpen(false)}>Ucretsiz Analiz</a>
+              <a href="#iletisim" onClick={() => setOpen(false)}>{"Ücretsiz Analiz"}</a>
             </Button>
           </div>
         </div>

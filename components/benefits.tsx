@@ -3,28 +3,28 @@ import { Eye, MapPin, PhoneCall, TrendingUp, Shield } from "lucide-react"
 const benefits = [
   {
     icon: Eye,
-    title: "Yuksek Dijital Gorunurluk",
-    description: "Konya genelinde daha yuksek dijital gorunurluk elde edin.",
+    title: "Yüksek Dijital Görünürlük",
+    description: "Konya genelinde daha yüksek dijital görünürlük elde edin.",
   },
   {
     icon: MapPin,
-    title: "Ust Sira Konumlandirma",
-    description: "Google Haritalar ve organik sonuclarda ust siralarda yer alin.",
+    title: "Üst Sıra Konumlandırma",
+    description: "Google Haritalar ve organik sonuçlarda üst sıralarda yer alın.",
   },
   {
     icon: PhoneCall,
-    title: "Artan Musteri Talebi",
-    description: "Telefon aramalari, form talepleri ve ziyaretler artar, satislariniza yansir.",
+    title: "Artan Müşteri Talebi",
+    description: "Telefon aramaları, form talepleri ve ziyaretler artar, satışlarınıza yansır.",
   },
   {
     icon: TrendingUp,
-    title: "Surdurulebilir Buyume",
-    description: "Reklama bagimli olmayan surdurulebilir musteri akisi saglayin.",
+    title: "Sürdürülebilir Büyüme",
+    description: "Reklama bağımlı olmayan sürdürülebilir müşteri akışı sağlayın.",
   },
   {
     icon: Shield,
-    title: "Guclenen Marka Otoritesi",
-    description: "Markanizin yerel guvenilirligi ve dijital otoritesi guclenir.",
+    title: "Güçlenen Marka Otoritesi",
+    description: "Markanızın yerel güvenilirliği ve dijital otoritesi güçlenir.",
   },
 ]
 
@@ -39,11 +39,11 @@ export function Benefits() {
           </span>
         </div>
 
-        <h2 className="font-serif text-3xl font-bold leading-tight text-primary-foreground md:text-4xl text-balance">
-          {"Konya SEO Hizmeti ile Elde Edeceginiz Faydalar"}
+        <h2 className="text-3xl font-bold leading-tight text-primary-foreground md:text-4xl text-balance">
+          {"Konya SEO Hizmeti ile Elde Edeceğiniz Faydalar"}
         </h2>
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-primary-foreground/70">
-          {"Dogru planlanmis bir Konya SEO calismasi ile isletmenizi dijitalde bir adim one cikartin."}
+          {"Doğru planlanmış bir Konya SEO çalışması ile işletmenizi dijitalde bir adım öne çıkartın."}
         </p>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
@@ -55,7 +55,7 @@ export function Benefits() {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/20">
                 <b.icon className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="font-serif text-base font-bold text-primary-foreground">{b.title}</h3>
+              <h3 className="text-base font-bold text-primary-foreground">{b.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-primary-foreground/60">{b.description}</p>
             </div>
           ))}

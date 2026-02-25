@@ -7,29 +7,29 @@ import {
 
 const faqs = [
   {
-    question: "SEO nedir ve ne ise yarar?",
+    question: "SEO nedir ve ne işe yarar?",
     answer:
-      "SEO (Search Engine Optimization), web sitenizin arama motorlarinda ust siralarda gorunmesini saglayan teknik, iceriksel ve stratejik calismalarin butunudur. Dogru yapildiginda surdurulebilir musteri akisi saglar; yanlis yapildiginda gorunmez olursunuz.",
+      "SEO (Search Engine Optimization), web sitenizin arama motorlarında üst sıralarda görünmesini sağlayan teknik, içeriksel ve stratejik çalışmaların bütünüdür. Doğru yapıldığında sürdürülebilir müşteri akışı sağlar; yanlış yapıldığında görünmez olursunuz.",
   },
   {
-    question: "Konya SEO calismasi ne kadar surer?",
+    question: "Konya SEO çalışması ne kadar sürer?",
     answer:
-      "SEO kisa vadeli bir islem degildir. Ilk sonuclar genellikle 3-6 ay icinde alinir; ideal sure 6 ay ve uzeridir. Surec boyunca analiz ve iyilestirmeler yapilir.",
+      "SEO kısa vadeli bir işlem değildir. İlk sonuçlar genellikle 3-6 ay içinde alınır; ideal süre 6 ay ve üzeridir. Süreç boyunca analiz ve iyileştirmeler yapılır.",
   },
   {
-    question: "Web sitemde hangi degisiklikler yapilacak?",
+    question: "Web sitemde hangi değişiklikler yapılacak?",
     answer:
-      "Baslik ve meta duzenlemeleri, icerik revizyonu, URL yapisinin optimize edilmesi, mobil uyumluluk ve sayfa hizinin artirilmasi, schema isaretlemeleri ve ic baglantilar gibi teknik ve icerik odakli duzenlemeler yapilir. Yapilan tum guncellemeler, sitenizin mevcut tasarimini ve marka kimligini korumaya ozen gosterir.",
+      "Başlık ve meta düzenlemeleri, içerik revizyonu, URL yapısının optimize edilmesi, mobil uyumluluk ve sayfa hızının artırılması, schema işaretlemeleri ve iç bağlantılar gibi teknik ve içerik odaklı düzenlemeler yapılır. Yapılan tüm güncellemeler, sitenizin mevcut tasarımını ve marka kimliğini korumaya özen gösterir.",
   },
   {
-    question: "Yerel SEO ile genel SEO arasinda fark var mi?",
+    question: "Yerel SEO ile genel SEO arasında fark var mı?",
     answer:
-      "Evet. Yerel SEO'da Google, konum, mesafe, yerel guven ve kullanici etkilesimi sinyallerini degerlendirir. Bu nedenle yerel arama sonuclari icin Google Business Profile optimizasyonu ve yerel referans calismalari zorunludur.",
+      "Evet. Yerel SEO'da Google, konum, mesafe, yerel güven ve kullanıcı etkileşimi sinyallerini değerlendirir. Bu nedenle yerel arama sonuçları için Google Business Profile optimizasyonu ve yerel referans çalışmaları zorunludur.",
   },
   {
-    question: "SEO kampanyasina ne kadar butce ayirmaliyim?",
+    question: "SEO kampanyasına ne kadar bütçe ayırmalıyım?",
     answer:
-      "Butce, sektorunuzdeki rekabet duzeyi ve hedef kelimelerinizin zorluguna gore degisir. Stratejik SEO calismalarina ayrilan butceler genellikle uzun vadede reklam harcamalarini azaltir ve yuksek geri donus saglar.",
+      "Bütçe, sektörünüzdeki rekabet düzeyi ve hedef kelimelerinizin zorluğuna göre değişir. Stratejik SEO çalışmalarına ayrılan bütçeler genellikle uzun vadede reklam harcamalarını azaltır ve yüksek geri dönüş sağlar.",
   },
 ]
 
@@ -45,17 +45,17 @@ export function FAQ() {
             </span>
           </div>
 
-          <h2 className="font-serif text-3xl font-bold leading-tight text-secondary-foreground md:text-4xl text-balance">
-            {"Sik Sorulan Sorular"}
+          <h2 className="text-3xl font-bold leading-tight text-secondary-foreground md:text-4xl text-balance">
+            {"Sık Sorulan Sorular"}
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            {"Konya SEO hizmetlerimiz hakkinda merak edilenler."}
+            {"Konya SEO hizmetlerimiz hakkında merak edilenler."}
           </p>
 
           <Accordion type="single" collapsible className="mt-10">
             {faqs.map((faq, i) => (
               <AccordionItem key={i} value={`faq-${i}`} className="border-border">
-                <AccordionTrigger className="text-left font-serif text-base font-semibold text-secondary-foreground hover:text-accent hover:no-underline md:text-lg">
+                <AccordionTrigger className="text-left text-base font-semibold text-secondary-foreground hover:text-accent hover:no-underline md:text-lg">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-base leading-relaxed text-muted-foreground">

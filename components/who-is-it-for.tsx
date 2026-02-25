@@ -4,27 +4,27 @@ const audiences = [
   {
     icon: Building2,
     title: "Fiziksel Ofisi Olan Firmalar",
-    description: "Satis ofisleri, magazalar ve atolyeler icin yerel gorunurluk",
+    description: "Satış ofisleri, mağazalar ve atölyeler için yerel görünürlük",
   },
   {
     icon: Stethoscope,
-    title: "Klinikler ve Saglik Merkezleri",
-    description: "Dis hekimleri, poliklinikler ve ozel saglik kuruluslari",
+    title: "Klinikler ve Sağlık Merkezleri",
+    description: "Diş hekimleri, poliklinikler ve özel sağlık kuruluşları",
   },
   {
     icon: Scale,
-    title: "Avukatlar ve Danismanlar",
-    description: "Hukuk burolari, danismanlik ofisleri ve kurumsal hizmet verenler",
+    title: "Avukatlar ve Danışmanlar",
+    description: "Hukuk büroları, danışmanlık ofisleri ve kurumsal hizmet verenler",
   },
   {
     icon: UtensilsCrossed,
     title: "Restoranlar ve Kafeler",
-    description: "Yeme-icme sektoru ve diger hizmet isletmeleri",
+    description: "Yeme-içme sektörü ve diğer hizmet işletmeleri",
   },
   {
     icon: Store,
-    title: "Tum KOBIler",
-    description: "Yerel musteri hedefleyen her olcekteki Konya isletmesi",
+    title: "Tüm KOBİ'ler",
+    description: "Yerel müşteri hedefleyen her ölçekteki Konya işletmesi",
   },
 ]
 
@@ -35,15 +35,15 @@ export function WhoIsItFor() {
         <div className="mb-4 flex items-center gap-2">
           <div className="h-px w-8 bg-accent" />
           <span className="text-sm font-semibold uppercase tracking-wider text-accent">
-            {"Kimler Icin?"}
+            {"Kimler İçin?"}
           </span>
         </div>
 
-        <h2 className="font-serif text-3xl font-bold leading-tight text-secondary-foreground md:text-4xl text-balance">
-          {"Konya SEO Hizmeti Kimler Icin Uygundur?"}
+        <h2 className="text-3xl font-bold leading-tight text-secondary-foreground md:text-4xl text-balance">
+          {"Konya SEO Hizmeti Kimler İçin Uygundur?"}
         </h2>
         <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-          {"Hizmet verdiginiz ana bolge Konya ise ve musteri kazanmak istiyorsaniz, yerel SEO zorunluluktur."}
+          {"Hizmet verdiğiniz ana bölge Konya ise ve müşteri kazanmak istiyorsanız, yerel SEO zorunluluktur."}
         </p>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
@@ -55,7 +55,7 @@ export function WhoIsItFor() {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 transition-colors group-hover:bg-accent/20">
                 <item.icon className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="font-serif text-base font-bold text-card-foreground">{item.title}</h3>
+              <h3 className="text-base font-bold text-card-foreground">{item.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.description}</p>
             </div>
           ))}
