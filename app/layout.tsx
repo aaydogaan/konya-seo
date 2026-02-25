@@ -40,6 +40,9 @@ export const metadata: Metadata = {
     images: ['/images/konya-seo-1.png'],
   },
   generator: 'v0.app',
+  verification: {
+    google: '5dDl6KA802749AwdSYvG3u7EkV2_lH31fgs43_bu7ro',
+  },
   icons: {
     icon: '/images/favicon-bro.png',
     apple: '/images/favicon-bro.png',
