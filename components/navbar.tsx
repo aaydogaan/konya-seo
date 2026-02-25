@@ -23,10 +23,10 @@ export function Navbar() {
         <a href="#" className="flex items-center">
           <Image
             src="/images/brodigitalmedia-logo.png"
-            alt="Brothers Digital Media"
+            alt="Brothers Digital Media Konya SEO Ajansı Logosu"
             width={180}
             height={45}
-            className="h-9 w-auto"
+            className="h-12 w-auto"
             priority
           />
         </a>

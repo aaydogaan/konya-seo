@@ -20,14 +20,14 @@ export function Footer() {
             <a href="#" className="inline-block">
               <Image
                 src="/images/brodigitalmedia-logo.png"
-                alt="Brothers Digital Media"
-                width={180}
-                height={45}
-                className="h-10 w-auto brightness-0 invert"
+                alt="Brothers Digital Media Konya Web Tasarım ve SEO Ajansı"
+                width={200}
+                height={50}
+                className="h-14 w-auto brightness-0 invert"
               />
             </a>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-primary-foreground/60">
-              {"Markanızı Öne Çıkarın."}
+            <p className="mt-4 max-w-sm text-sm leading-relaxed text-primary-foreground/70">
+              Konya SEO Ajansı olarak yerel işletmenizi arama motorlarında üst sıralara taşıyoruz. Profesyonel SEO danışmanlığı, web tasarım ve Google Haritalar optimizasyonu ile Konya pazarında dijitaldeki gücünüzü artırın.
             </p>
           </div>
 
@@ -58,13 +58,23 @@ export function Footer() {
             <ul className="mt-4 flex flex-col gap-4">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
-                <span className="text-sm text-primary-foreground/60">
+                <a
+                  href="https://maps.google.com/?q=Fatih+Mah.+Altınkalem+Sok.+No:10+Selçuklu+/+KONYA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors"
+                >
                   {"Fatih Mah. Altınkalem Sok. No:10 Selçuklu / KONYA"}
-                </span>
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
-                <span className="text-sm text-primary-foreground/60">0505 063 8543</span>
+                <a
+                  href="tel:05050638543"
+                  className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors"
+                >
+                  0505 063 8543
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-accent" />

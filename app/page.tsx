@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero"
 import { WhatIsSeo } from "@/components/what-is-seo"
 import { WhoIsItFor } from "@/components/who-is-it-for"
 import { Process } from "@/components/process"
+import { ProofSection } from "@/components/proof"
 import { Benefits } from "@/components/benefits"
 import { Pricing } from "@/components/pricing"
 import { FAQ } from "@/components/faq"
@@ -15,6 +16,7 @@ export default function Page() {
     <main>
       <Navbar />
       <Hero />
+      <ProofSection />
       <WhatIsSeo />
       <WhoIsItFor />
       <Process />
