@@ -12,47 +12,97 @@ export function ProofSection() {
             <div className="mx-auto max-w-7xl px-6">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                        Google&apos;da Zirveyi Hedefleyin
+                        Vaka Analizleri ve Başarı Hikayeleri
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground">
-                        Sadece söz vermiyoruz, sonuç odaklı çalışıyoruz. Doğru SEO stratejileri ile organik trafiğinizi nasıl artırdığımızı Google Search Console verilerimizle kendi gözlerinizle görün.
+                        Sadece söz vermiyoruz, verilerle konuşuyoruz. Ajansımızın uyguladığı SEO stratejileriyle Konya ve genel Türkiye aramalarında organik trafiklerini nasıl milyonlara ulaştırdığını kendi gözlerinizle inceleyin.
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8 items-center">
-                    {/* Image 1 Container */}
-                    <div
-                        className="group relative rounded-2xl overflow-hidden border border-border shadow-sm cursor-pointer"
-                        onClick={() => setSelectedImage("/images/konya-seo-1.png")}
-                    >
-                        <Image
-                            src="/images/konya-seo-1.png"
-                            alt="Konya SEO Ajansı Google Search Console Organik Trafik Artışı"
-                            width={800}
-                            height={500}
-                            className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
-                            priority
-                        />
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <ZoomIn className="text-white w-10 h-10" />
+                <div className="grid md:grid-cols-2 gap-10 items-stretch">
+                    {/* Case Study 1 */}
+                    <div className="flex flex-col bg-card rounded-2xl overflow-hidden border border-border shadow-sm transition-all hover:shadow-md hover:border-accent/40">
+                        <div
+                            className="group relative cursor-pointer overflow-hidden border-b border-border bg-slate-100"
+                            onClick={() => setSelectedImage("/images/konya-seo-1.png")}
+                        >
+                            <Image
+                                src="/images/konya-seo-1.png"
+                                alt="Ya Olmasaydı (yaolmasaydi.com) SEO Başarı Grafiği"
+                                width={800}
+                                height={400}
+                                className="w-full h-56 object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                                priority
+                            />
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <ZoomIn className="text-white w-10 h-10" />
+                            </div>
+                        </div>
+                        <div className="p-6 md:p-8 flex flex-col flex-1">
+                            <h3 className="text-2xl font-bold mb-2">Proje: Ya Olmasaydı</h3>
+                            <a href="https://yaolmasaydi.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline text-sm mb-6 inline-block">yaolmasaydi.com</a>
+
+                            <div className="grid grid-cols-2 gap-4 mt-auto">
+                                <div className="bg-blue-50 dark:bg-blue-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Toplam Tıklama</p>
+                                    <p className="text-2xl font-black text-blue-600 dark:text-blue-400">12.6 B+</p>
+                                </div>
+                                <div className="bg-purple-50 dark:bg-purple-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Toplam Gösterim</p>
+                                    <p className="text-2xl font-black text-purple-600 dark:text-purple-400">1.2 Mn+</p>
+                                </div>
+                                <div className="bg-teal-50 dark:bg-teal-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama TO</p>
+                                    <p className="text-2xl font-black text-teal-600 dark:text-teal-400">% 1.1</p>
+                                </div>
+                                <div className="bg-orange-50 dark:bg-orange-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama Konum</p>
+                                    <p className="text-2xl font-black text-orange-600 dark:text-orange-400">6.4</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    {/* Image 2 Container */}
-                    <div
-                        className="group relative rounded-2xl overflow-hidden border border-border shadow-sm cursor-pointer"
-                        onClick={() => setSelectedImage("/images/konya-seo-2.png")}
-                    >
-                        <Image
-                            src="/images/konya-seo-2.png"
-                            alt="Konya Yerel SEO Tıklanma ve Gösterim İstatistikleri"
-                            width={800}
-                            height={500}
-                            className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
-                            priority
-                        />
-                        <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                            <ZoomIn className="text-white w-10 h-10" />
+                    {/* Case Study 2 */}
+                    <div className="flex flex-col bg-card rounded-2xl overflow-hidden border border-border shadow-sm transition-all hover:shadow-md hover:border-accent/40">
+                        <div
+                            className="group relative cursor-pointer overflow-hidden border-b border-border bg-slate-100"
+                            onClick={() => setSelectedImage("/images/konya-seo-2.png")}
+                        >
+                            <Image
+                                src="/images/konya-seo-2.png"
+                                alt="Rastgel (rastgel.com) SEO Başarı Grafiği"
+                                width={800}
+                                height={400}
+                                className="w-full h-56 object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                                priority
+                            />
+                            <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                <ZoomIn className="text-white w-10 h-10" />
+                            </div>
+                        </div>
+                        <div className="p-6 md:p-8 flex flex-col flex-1">
+                            <h3 className="text-2xl font-bold mb-2">Proje: Rastgel</h3>
+                            <a href="https://rastgel.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline text-sm mb-6 inline-block">rastgel.com</a>
+
+                            <div className="grid grid-cols-2 gap-4 mt-auto">
+                                <div className="bg-blue-50 dark:bg-blue-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Son 6 Ay Tıklama</p>
+                                    <p className="text-2xl font-black text-blue-600 dark:text-blue-400">1.84 B+</p>
+                                </div>
+                                <div className="bg-purple-50 dark:bg-purple-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Son 6 Ay Gösterim</p>
+                                    <p className="text-2xl font-black text-purple-600 dark:text-purple-400">43.4 B+</p>
+                                </div>
+                                <div className="bg-teal-50 dark:bg-teal-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama TO</p>
+                                    <p className="text-2xl font-black text-teal-600 dark:text-teal-400">% 4.2</p>
+                                </div>
+                                <div className="bg-orange-50 dark:bg-orange-950/30 p-4 rounded-xl">
+                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama Konum</p>
+                                    <p className="text-2xl font-black text-orange-600 dark:text-orange-400">6.1</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
