@@ -11,14 +11,14 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://konya-seo.brodigitalmedia.com'),
-  title: 'Konya SEO Ajansı – Yerel SEO Hizmeti, Ücretsiz Analiz',
+  title: 'Konya SEO – İlk Sıraya Çıkın | Ücretsiz Analiz',
   description: 'Konya’da SEO hizmetiyle işletmenizi Google’da zirveye taşıyın. Anahtar kelime analizi, teknik optimizasyon ve içerik stratejisi ile ücretsiz SEO analizi alın.',
   keywords: 'Konya SEO, Konya SEO ajansı, Konya SEO hizmeti, yerel SEO, Konya web tasarım, anahtar kelime analizi, Google Harita optimizasyonu',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Konya SEO Ajansı – Yerel SEO Hizmeti, Ücretsiz Analiz',
+    title: 'Konya SEO – İlk Sıraya Çıkın | Ücretsiz Analiz',
     description: 'Konya’da SEO hizmetiyle işletmenizi Google’da zirveye taşıyın. Anahtar kelime analizi, teknik optimizasyon ve içerik stratejisi ile ücretsiz SEO analizi alın.',
     siteName: 'Konya SEO Ajansı',
     locale: 'tr_TR',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Konya SEO Ajansı – Yerel SEO Hizmeti',
+    title: 'Konya SEO – İlk Sıraya Çıkın | Ücretsiz Analiz',
     description: 'Konya’da SEO hizmetiyle işletmenizi Google’da zirveye taşıyın.',
     images: ['/images/konya-seo-1.png'],
   },
