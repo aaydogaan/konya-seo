@@ -32,27 +32,27 @@ export function WhatIsSeo() {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
                 <Globe className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="text-lg font-bold text-card-foreground">{"Yerel Arama Optimizasyonu"}</h3>
+              <h3 className="text-lg font-bold text-card-foreground">{"Yerel Müşteriye Ulaşmak"}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {"Konya'daki potansiyel müşterileriniz sizi aradığında, işletmenizi en üst sıralarda görsün."}
+                {"Google yerel aramalarda uzaklık, alaka düzeyi ve işletme önemine bakar. Konya'da 'avukat', 'restoran' arayan biri alışverişe hazırdır. Eksiksiz bilgilerle öne çıkın."}
               </p>
             </div>
             <div className="group rounded-2xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:shadow-lg">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
                 <BarChart3 className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="text-lg font-bold text-card-foreground">{"Veri Odaklı Strateji"}</h3>
+              <h3 className="text-lg font-bold text-card-foreground">{"Uzun Vadeli Yatırım"}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {"Her kararı veriye dayandırıyor, rakiplerinizi analiz ediyor ve fırsatları sizin için keşfediyoruz."}
+                {"Reklam kampanyaları anlık sonuç getirse de bütçeyi artırmadan sürdürülemez. Doğru SEO yapılandırması ise organik ve kalıcı bir trafik sağlar."}
               </p>
             </div>
             <div className="group rounded-2xl border border-border bg-card p-6 transition-all hover:border-accent/30 hover:shadow-lg">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10">
                 <Users className="h-6 w-6 text-accent" />
               </div>
-              <h3 className="text-lg font-bold text-card-foreground">{"Müşteri Odaklı Yaklaşım"}</h3>
+              <h3 className="text-lg font-bold text-card-foreground">{"Rakip Avantajı"}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {"Trafik değil, dönüşüm hedefliyoruz. Satın almaya hazır kullanıcıları çekecek içerikleri oluşturuyoruz."}
+                {"Rakipleriniz temel ayarlarla yetinirken; kullanıcı deneyimi, hızlı yükleme ve veri analitiği gibi rakiplerin değinmediği kritik noktalarla sizi öne çıkarıyoruz."}
               </p>
             </div>
           </div>
