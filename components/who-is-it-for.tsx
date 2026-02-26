@@ -1,30 +1,30 @@
-import { Building2, Stethoscope, Scale, UtensilsCrossed, Store } from "lucide-react"
+import { Building2, Stethoscope, Scale, Store, Globe } from "lucide-react"
 
 const audiences = [
   {
     icon: Building2,
-    title: "Fiziksel Ofisi Olan Firmalar",
-    description: "Satış ofisleri, mağazalar ve atölyeler için yerel görünürlük",
+    title: "Küçük ve Orta Ölçekli İşletmeler",
+    description: "Konya'da veya çevresindeki ilçelerde hizmet veren tüm KOBİ'ler",
+  },
+  {
+    icon: Store,
+    title: "Çoklu Şube Yapan Firmalar",
+    description: "Yerel rekabet avantajı sağlamak isteyen zincir restoranlar, klinikler ve perakende mağazalar",
+  },
+  {
+    icon: Globe,
+    title: "E-ticaret ve B2B Firmaları",
+    description: "Yerel aramalardan gelen trafikle online ve toptan satışlarını artırmak isteyenler",
   },
   {
     icon: Stethoscope,
     title: "Klinikler ve Sağlık Merkezleri",
-    description: "Diş hekimleri, poliklinikler ve özel sağlık kuruluşları",
+    description: "Potansiyel hastaların arama yaptığı bölgede öne çıkmak isteyen sağlık kuruluşları",
   },
   {
     icon: Scale,
     title: "Avukatlar ve Danışmanlar",
-    description: "Hukuk büroları, danışmanlık ofisleri ve kurumsal hizmet verenler",
-  },
-  {
-    icon: UtensilsCrossed,
-    title: "Restoranlar ve Kafeler",
-    description: "Yeme-içme sektörü ve diğer hizmet işletmeleri",
-  },
-  {
-    icon: Store,
-    title: "Tüm KOBİ'ler",
-    description: "Yerel müşteri hedefleyen her ölçekteki Konya işletmesi",
+    description: "Hukiki ve danışmanlık hizmetlerini arayan müşterilere hızlıca ulaşmak isteyen ofisler",
   },
 ]
 
