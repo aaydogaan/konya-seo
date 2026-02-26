@@ -47,7 +47,7 @@ export function ContactCTA() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10">
                   <Mail className="h-5 w-5 text-accent" />
                 </div>
-                bromakagency@gmail.com
+                info@brodigitalmedia.com
               </a>
               <div className="flex items-start gap-3 text-base text-muted-foreground">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/10">
