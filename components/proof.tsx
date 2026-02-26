@@ -43,21 +43,21 @@ export function ProofSection() {
                             <a href="https://yaolmasaydi.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline text-sm mb-6 inline-block">yaolmasaydi.com</a>
 
                             <div className="grid grid-cols-2 gap-4 mt-auto">
-                                <div className="bg-blue-50 dark:bg-blue-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Toplam Tıklama</p>
-                                    <p className="text-2xl font-black text-blue-600 dark:text-blue-400">12.6 B+</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Toplam Tıklama</p>
+                                    <p className="text-xl font-bold text-foreground">12.6 B+</p>
                                 </div>
-                                <div className="bg-purple-50 dark:bg-purple-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Toplam Gösterim</p>
-                                    <p className="text-2xl font-black text-purple-600 dark:text-purple-400">1.2 Mn+</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Toplam Gösterim</p>
+                                    <p className="text-xl font-bold text-foreground">1.2 Mn+</p>
                                 </div>
-                                <div className="bg-teal-50 dark:bg-teal-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama TO</p>
-                                    <p className="text-2xl font-black text-teal-600 dark:text-teal-400">% 1.1</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Ortalama TO</p>
+                                    <p className="text-xl font-bold text-foreground">% 1.1</p>
                                 </div>
-                                <div className="bg-orange-50 dark:bg-orange-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama Konum</p>
-                                    <p className="text-2xl font-black text-orange-600 dark:text-orange-400">6.4</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Ortalama Konum</p>
+                                    <p className="text-xl font-bold text-foreground">6.4</p>
                                 </div>
                             </div>
                         </div>
@@ -86,21 +86,21 @@ export function ProofSection() {
                             <a href="https://rastgel.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline text-sm mb-6 inline-block">rastgel.com</a>
 
                             <div className="grid grid-cols-2 gap-4 mt-auto">
-                                <div className="bg-blue-50 dark:bg-blue-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Son 6 Ay Tıklama</p>
-                                    <p className="text-2xl font-black text-blue-600 dark:text-blue-400">1.84 B+</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Son 6 Ay Tıklama</p>
+                                    <p className="text-xl font-bold text-foreground">1.84 B+</p>
                                 </div>
-                                <div className="bg-purple-50 dark:bg-purple-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Son 6 Ay Gösterim</p>
-                                    <p className="text-2xl font-black text-purple-600 dark:text-purple-400">43.4 B+</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Son 6 Ay Gösterim</p>
+                                    <p className="text-xl font-bold text-foreground">43.4 B+</p>
                                 </div>
-                                <div className="bg-teal-50 dark:bg-teal-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama TO</p>
-                                    <p className="text-2xl font-black text-teal-600 dark:text-teal-400">% 4.2</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Ortalama TO</p>
+                                    <p className="text-xl font-bold text-foreground">% 4.2</p>
                                 </div>
-                                <div className="bg-orange-50 dark:bg-orange-950/30 p-4 rounded-xl">
-                                    <p className="text-xs text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Ortalama Konum</p>
-                                    <p className="text-2xl font-black text-orange-600 dark:text-orange-400">6.1</p>
+                                <div className="p-4 rounded-xl border border-border bg-muted/5">
+                                    <p className="text-[10px] text-muted-foreground mb-1 uppercase tracking-[0.1em] font-bold">Ortalama Konum</p>
+                                    <p className="text-xl font-bold text-foreground">6.1</p>
                                 </div>
                             </div>
                         </div>

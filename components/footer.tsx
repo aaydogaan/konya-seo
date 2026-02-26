@@ -79,10 +79,10 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <a
-                  href="mailto:bromakagency@gmail.com"
+                  href="mailto:info@brodigitalmedia.com"
                   className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground"
                 >
-                  info@brodigitalmedia.co
+                  info@brodigitalmedia.com
                 </a>
               </li>
             </ul>

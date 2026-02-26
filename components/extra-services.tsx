@@ -43,9 +43,9 @@ export function ExtraServices() {
                     {services.map((s) => (
                         <div
                             key={s.title}
-                            className="group flex flex-col items-center text-center rounded-2xl border border-border bg-card p-8 transition-all hover:border-accent/30 hover:shadow-xl"
+                            className="group flex flex-col items-center text-center rounded-2xl border border-border bg-card p-8 transition-all hover:border-accent/30 hover:shadow-lg"
                         >
-                            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-accent/10 transition-colors group-hover:bg-accent group-hover:text-accent-foreground text-accent">
+                            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl border border-border bg-muted/5 transition-colors group-hover:bg-accent group-hover:text-accent-foreground text-accent">
                                 <s.icon className="h-8 w-8" />
                             </div>
                             <h3 className="text-xl font-bold text-card-foreground mb-3">{s.title}</h3>
