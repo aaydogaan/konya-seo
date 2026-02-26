@@ -82,7 +82,7 @@ export function Footer() {
                   href="mailto:bromakagency@gmail.com"
                   className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground"
                 >
-                  bromakagency@gmail.com
+                  info@brodigitalmedia.com
                 </a>
               </li>
             </ul>
