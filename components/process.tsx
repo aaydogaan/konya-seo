@@ -1,40 +1,54 @@
-import { Search, MapPinned, Settings2, FileText, Link2 } from "lucide-react"
+import { Search, MapPinned, Settings2, FileText, Link2, Lightbulb, BarChart } from "lucide-react"
 
 const steps = [
   {
     number: "01",
     icon: Search,
-    title: "Yerel Anahtar Kelime ve Rakip Analizi",
+    title: "Ücretsiz SEO ve Rekabet Analizi",
     description:
-      "Konya özelinde yapılan aramalar detaylı şekilde analiz edilir. \"Konya diş hekimi\", \"Konya avukat\" veya \"Konya restoran\" gibi yüksek dönüşüm potansiyeline sahip anahtar kelimeler belirlenir. Rakip analizi yaparak hangi kelimelerde rekabetin yoğun olduğunu ve sizin fırsat alanlarınızı keşfederiz.",
+      "Durum raporu ile site sağlığı, mevcut sıralamalar ve rekabet yoğunluğu incelenir. Yapay zekâ destekli analiz sayesinde arama sonuçlarındaki rakip sitelerden toplanan veriler, kullanıcı niyetleri ve trendler ile birleştirilir. Sadece 'Konya SEO' değil, yüksek potansiyelli tüm ifadeler tespit edilir.",
   },
   {
     number: "02",
-    icon: MapPinned,
-    title: "Google Business Profile ve Harita Optimizasyonu",
+    icon: Lightbulb,
+    title: "Anahtar Kelime ve Konu Kümeleri",
     description:
-      "Google Haritalar kaydınız Konya lokasyonuna uygun şekilde optimize edilir. Adres, telefon, kategori seçimi, hizmet alanları ve görseller eksiksiz doldurulur. NAP bilgilerinin tüm platformlarda tutarlı olması ve gerçek müşteri yorumlarının yönetilmesi, Google'ın işletmenize duyduğu güveni artırır.",
+      "Konya içi bölge ve sektör odaklı aramalar, uzun kuyruklu kelimeler ve semantik terimler belirlenir. Yalnızca tek bir SEO sayfası yerine, birbiriyle bağlantılı blog ve hizmet alt sayfalarıyla algoritmada yetkili kaynak (otorite) olmanız sağlanır.",
   },
   {
     number: "03",
     icon: Settings2,
-    title: "Site İçi SEO ve Teknik İyileştirmeler",
+    title: "Teknik SEO ve Core Web Vitals Optimizasyonu",
     description:
-      "Başlık ve meta açıklamaları yerel anahtar kelimelerle optimize edilir. İç sayfalar arası linkleme yapılır, mobil uyumluluk ve sayfa hızı artırılır, kod yapısı ve URL mimarisi düzenlenir, schema işaretlemeleri kullanılır.",
+      "Google'ın hayati metrikleri olan Core Web Vitals (LCP, INP, CLS) doğrudan iyileştirilir. Mobil kullanıcılar için ultra hızlı erişim, HTTPS güvenliği ve zararlı bot blokajları ile kusursuz bir teknik altyapı oluşturulur.",
   },
   {
     number: "04",
-    icon: FileText,
-    title: "İçerik Stratejisi ve E-E-A-T",
+    icon: MapPinned,
+    title: "Yerel SEO ve Google Business Profile Optimizasyonu",
     description:
-      "Google artık sadece anahtar kelime saymıyor; uzmanlık, deneyim, otorite ve güven faktörlerini ölçüyor. Kullanıcının sorularını yanıtlayan, bilgilendirici ve yerel örneklerle zenginleştirilmiş makaleler üretiyoruz. Düzenli olarak güncellenen blog yazılarıyla sitenizin güncel kaldığını gösteriyoruz.",
+      "Google İşletme Profili (eski adıyla Google My Business) bilgileri (NAP) her platformda senkronize edilir. Müşteri yorumları profesyonelce yönetilir ve LocalBusiness (Schema) kodlaması ile haritalarda zengin sonuçlarla çıkmanız sağlanır.",
   },
   {
     number: "05",
-    icon: Link2,
-    title: "Yerel Güven ve Backlink Çalışmaları",
+    icon: FileText,
+    title: "İçerik Stratejisi: Doğal Dil ve Sesli Arama Uyumu",
     description:
-      "Konya ve çevresindeki güvenilir kaynaklardan geri bağlantılar almak ve marka otoritesini artırmak önemlidir. Yerel haber siteleri, sektörel bloglar ve işletme rehberlerine içerik veya sponsorlu bağlantılar yerleştirilir.",
+      "Geleceğin arama motoru olan yapay zeka destekli soru-cevap algoritmalarına uygun (SGE) içerikler üretilir. Ziyaretçilerin doğal konuşma diliyle arattığı sorunlara çözüm üreten yerel rehber ve blog yazıları kaleme alınır.",
+  },
+  {
+    number: "06",
+    icon: Link2,
+    title: "Backlink, Dijital PR ve NAP Yönetimi",
+    description:
+      "Sektörünüzle ilgili Konya'da ve Türkiye genelinde otoriter platformlardan organik backlink (geri bağlantı) inşa edilir. Sosyal medya sinerjisi ve yerel web dizinleri ile işletmenizin Google gözündeki güven puanı maksimize edilir.",
+  },
+  {
+    number: "07",
+    icon: BarChart,
+    title: "Sürekli İzleme, Raporlama ve Yapay Zekâ İyileştirmesi",
+    description:
+      "Search Console ve sitemize kurduğumuz gelişmiş analiz tool'ları ile şeffaf paneller sunulur. Tıklama Oranı (CTR) iyileştirmeleri için düzenli A/B testleri yapılır. Google güncellemelerine karşı proaktif ve adaptif stratejiler entegre edilir.",
   },
 ]
 
